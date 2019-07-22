@@ -21,12 +21,6 @@ class School
     roster[grade]
   end
   
-  def sort
-    roster.each do |grade, array|
-      array.each do 
-        array.sort
-      end
-    end
-  end
+  
   
 end
