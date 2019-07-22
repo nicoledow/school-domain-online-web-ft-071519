@@ -21,6 +21,10 @@ class School
     roster[grade]
   end
   
-  
+  def sort
+    self.roster.each do |grade, array|
+      self.roster[grade] = array.sort
+    end
+  end
   
 end
